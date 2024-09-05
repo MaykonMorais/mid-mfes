@@ -1,0 +1,6 @@
+{
+    "header": { "variable": "HEADER_MFE_URL" },
+    "footer": { "variable": "FOOTER_MFE_URL" },
+    "content": { "variable": "CONTENT_MFE_URL" } 
+}
+  
