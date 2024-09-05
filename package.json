@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3001",
+    "dev": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3005",
     "build": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && next build",
     "start": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && export NODE_ENV=production && next start -p 3001",
     "deploy": "bash deploy.bash",
@@ -16,11 +16,13 @@
     "test:ci": "jest --ci"
   },
   "dependencies": {
-    "@module-federation/nextjs-mf": "8.3.28",
-    "next": "^14.1.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "webpack": "5.89.0"
+    
+    "@emotion/styled": "11.11.0",
+    "@module-federation/nextjs-mf": "8.3.14",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "5.90.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
