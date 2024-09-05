@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "set NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3005",
-    "build": "set NEXT_PRIVATE_LOCAL_WEBPACK=true && next build",
-    "start": "set NEXT_PRIVATE_LOCAL_WEBPACK=true && set NODE_ENV=production && next start -p 3001",
+    "dev": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && next dev -p 3005",
+    "build": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && next build",
+    "start": "export NEXT_PRIVATE_LOCAL_WEBPACK=true && export NODE_ENV=production && next start -p 3001",
     "deploy": "bash deploy.bash",
     "lint": "next lint",
     "release": "standard-version",
