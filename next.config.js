@@ -16,6 +16,7 @@ const remotes = (isServer) => {
 
 const exposes = {
   './utils/mfeRenderer': './src/utils/mfeRenderer',
+  './GenericComponent': './src/components/GenericComponent'
 };
 
 module.exports = {
