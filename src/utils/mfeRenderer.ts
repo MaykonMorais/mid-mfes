@@ -3,7 +3,7 @@ import { lazy } from "react";
 
 const components = {
     'header': lazy(() => import('header/Header')),
-    'content': lazy(() => import('content/Content')),
+    'cbc_previsibility': lazy(() => import('content/Content')),
     'footer': lazy(() => import('footer/Footer')),
 }
 
